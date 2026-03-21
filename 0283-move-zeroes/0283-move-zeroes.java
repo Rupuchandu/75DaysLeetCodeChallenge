@@ -9,8 +9,8 @@ class Solution {
                 k++;
             }
         }
-        for(int i=k; i<nums.length; i++) {
-            nums[k]=0;
-        }
+        //for(int i=k; i<nums.length; i++) {
+          //  nums[k]=0;
+        //}
     }
 }
