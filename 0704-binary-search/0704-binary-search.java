@@ -7,8 +7,7 @@ class Solution {
             int mid=(l+r)/2;
             if(nums[mid]==target) {
                 return mid;
-            }
-            if(nums[mid]<target) {
+            } else if(nums[mid]<target) {
                 l++;
             } else {
                 r--;
