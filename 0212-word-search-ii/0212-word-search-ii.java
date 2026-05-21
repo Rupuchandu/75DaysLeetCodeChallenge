@@ -16,8 +16,7 @@ class Solution {
         return result;
     }
     private void dfs(char[][] board, int row, int col, TrieNode node) {
-        if (row < 0 || col < 0 ||
-            row >= board.length || col >= board[0].length) {
+        if (row < 0 || col < 0 || row >= board.length || col >= board[0].length) {
             return;
         }
         char ch = board[row][col];
